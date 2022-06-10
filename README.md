@@ -2,20 +2,9 @@
 
 #### Library webhooks allows for easy receiving and parsing of GitHub, Bitbucket and GitLab Webhook Events
 
-#### Features:
-
-* Parses the entire payload, not just a few fields.
-* Fields + Schema directly lines up with webhook posted json
-
-#### Notes:
-
-* Currently only accepting json payloads.
-
 ### Installation
 
-
 Use go get.
-
 
 ```shell
 go get -u github.com/bruno5200/webhooks/v2
@@ -24,7 +13,6 @@ go get -u github.com/bruno5200/webhooks/v2
 Then import the package into your own code.
 
 	import "github.com/bruno5200/webhooks/v2"
-
 
 ##### Examples:
 ```go
