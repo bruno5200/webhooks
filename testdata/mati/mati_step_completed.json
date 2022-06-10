@@ -1,0 +1,16 @@
+{
+    "resource": "https://api.getmati.com/v2/verifications/629237c1c37708001ba24643",
+    "step": {
+      "status": 200,
+      "id": "phone-ownership-validation",
+      "data": {
+        "phoneNumber": "77256511",
+        "countryCode": "BO",
+        "dialingCode": 591
+      },
+      "error": null
+    },
+    "eventName": "step_completed",
+    "flowId": "6287dce645bb45001cdea783",
+    "timestamp": "2022-05-28T14:55:18.153Z"
+  }
