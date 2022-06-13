@@ -119,7 +119,7 @@ func (hook Webhook) Parse(r *http.Request, events ...Event) (interface{}, error)
 	}
 
 	switch matiEvent {
-	case VeificationStartedEvent:
+	case VerificationStartedEvent:
 		var pl VerificationStartedPayload
 		return pl, json.Unmarshal([]byte(payload), &pl)
 	case VerificationInputsCompletedEvent:
