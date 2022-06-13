@@ -12,7 +12,7 @@ go get -u github.com/bruno5200/webhooks/v2
 
 Then import the package into your own code.
 
-	import "github.com/bruno5200/webhooks/v2"
+	import "github.com/bruno5200/webhooks"
 
 ##### Examples:
 ```go
@@ -23,7 +23,7 @@ import (
 
 	"net/http"
 
-	"github.com/bruno5200/webhooks/v2/github"
+	"github.com/bruno5200/webhooks/github"
 )
 
 const (

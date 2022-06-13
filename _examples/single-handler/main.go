@@ -5,7 +5,7 @@ import (
 
 	"net/http"
 
-	"github.com/bruno5200/webhooks/v2/github"
+	"github.com/bruno5200/webhooks/github"
 )
 
 const (

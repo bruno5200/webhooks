@@ -1,4 +1,4 @@
-module github.com/bruno5200/webhooks/v2
+module github.com/bruno5200/webhooks
 
 go 1.18
 
