@@ -46,7 +46,7 @@ func TestBadRequests(t *testing.T) {
 	}{
 		{
 			name:    "BadNoEventHeader",
-			event:   VeificationStartedEvent,
+			event:   VerificationStartedEvent,
 			payload: bytes.NewBuffer([]byte("{}")),
 			headers: http.Header{},
 		},
