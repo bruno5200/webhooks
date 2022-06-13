@@ -25,7 +25,7 @@ var (
 type Event string
 
 const (
-	VeificationStartedEvent          Event = "verification_started"
+	VerificationStartedEvent          Event = "verification_started"
 	VerificationInputsCompletedEvent Event = "verification_inputs_completed"
 	StepCompletedEvent               Event = "step_completed"
 	VerificationUpdatedEvent         Event = "verification_updated"
